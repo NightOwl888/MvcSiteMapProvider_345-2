@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc.Html;
-using System.Data.Entity;
-using MvcSiteMapProvider.Xml.Sitemap;
+﻿using MvcSiteMapProvider.Xml.Sitemap;
 using MvcSiteMapProvider.Xml.Sitemap.Specialized;
+using System;
+using System.Linq;
 
 namespace MvcSiteMapProvider_345_2.XmlSitemap
 {
@@ -13,6 +9,7 @@ namespace MvcSiteMapProvider_345_2.XmlSitemap
     {
         private EntityFramework.MyEntityContext db = new EntityFramework.MyEntityContext();
 
+        // This is optional. Don't override it if you don't want to use last modified date.
         public override DateTime GetLastModifiedDate(string feedName, int skip, int take)
         {
             // Get the latest date in the specified page

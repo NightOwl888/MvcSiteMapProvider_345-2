@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Xml;
-using MvcSiteMapProvider.IO;
-using MvcSiteMapProvider.Reflection;
+﻿using MvcSiteMapProvider.IO;
 using MvcSiteMapProvider.Web.Mvc;
-using MvcSiteMapProvider.Xml.Sitemap;
 using MvcSiteMapProvider.Xml.Sitemap.Configuration;
+using System.Web.Mvc;
 
 namespace MvcSiteMapProvider_345_2.Controllers
 {
